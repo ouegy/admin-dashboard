@@ -5,11 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashbaord</title>
     <link type="text/css" rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header></header>
-        <div class="sidebar"></div>
+        <div class="sidebar">
+            <div class="title">
+                <img src="./images/bee.svg" />
+                <h1 class="roboto-medium">Dashboard</h1>
+            </div>
+            
+            <ul role="list">
+                <li class="home roboto-regular"><img src="./images/home-outline.svg" /><a href="#">Home</a></li>
+                <li><img src="./images/card-account-details-outline.svg" /><a href="#">Profile</a></li>
+                <li><img src="./images/message-outline.svg" /><a href="#">Messages</a></li>
+                <li><img src="./images/history.svg" /><a href="#">History</a></li>
+                <li><img src="./images/file-document-multiple-outline.svg" /><a href="#">Tasks</a></li>
+                <li><img src="./images/account-group.svg" /><a href="#">Communities</a></li>
+            </ul>
+
+            <ul role="list">
+                <li class="home roboto-regular"><img src="./images/cog.svg" /><a href="#">Settings</a></li>
+                <li><img src="./images/help-box-outline.svg" /><a href="#">Support</a></li>
+                <li><img src="./images/security.svg" /><a href="#">Privacy</a></li>
+            </ul>
+        </div>
         <div class="main-content"></div>
     </div>
 </body>
