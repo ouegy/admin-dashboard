@@ -11,27 +11,27 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="drop-shadow">
             <form id="search-form">
-                <button name="search" id="search-button"></button>
+                <button name="search" id="search-button" class="clickable"></button>
                 <input type="text" placeholder="search" id="search" for="search">
             </form>
             <div class="user-alerts">
-                <div class="alert"></div>
-                <div class="circle avatar avatar-small"></div>
-                <h3>Morgan Oakley</h3>
+                <div class="alert clickable"></div>
+                <div class="circle avatar avatar-small clickable"></div>
+                <h3 class="clickable">Morgan Oakley</h3>
             </div>
             <div class="user-details">
-                <div class="circle avatar"></div>
+                <div class="circle avatar clickable"></div>
                 <div>
                     <h4>Hi there,</h4>
-                    <h2>Morgan Oakley (@morgan)</h2>
+                    <h2>Morgan Oakley <span class="clickable">(@morgan)</span></h2>
                 </div>
             </div>
             <div class="header-buttons">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
+                <button class="clickable">New</button>
+                <button class="clickable">Upload</button>
+                <button class="clickable">Share</button>
             </div>
         </header>
         <div class="sidebar">
@@ -58,10 +58,67 @@
         <div class="main-content">
             <div class="projects">
                 <h2>Your Projects</h2>
+                <div class="projects-container">
+                    <div class="card drop-shadow">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam qui deleniti iste incidunt quae quia assumenda.</p>
+                        <div class="card-icons">
+                            <img class="clickable" src="./images/star-plus-outline.svg" />
+                            <img class="clickable" src="./images/eye-plus-outline.svg" />
+                            <img class="clickable" src="./images/source-fork.svg"v/>
+                        </div>
+                    </div>
+                    <div class="card drop-shadow">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam qui deleniti iste incidunt quae quia assumenda.</p>
+                        <div class="card-icons">
+                            <img class="clickable" src="./images/star-plus-outline.svg" />
+                            <img class="clickable" src="./images/eye-plus-outline.svg" />
+                            <img class="clickable" src="./images/source-fork.svg"v/>
+                        </div>
+                    </div>
+                    <div class="card drop-shadow">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam qui deleniti iste incidunt quae quia assumenda.</p>
+                        <div class="card-icons">
+                            <img class="clickable" src="./images/star-plus-outline.svg" />
+                            <img class="clickable" src="./images/eye-plus-outline.svg" />
+                            <img class="clickable" src="./images/source-fork.svg"v/>
+                        </div>
+                    </div>
+                    <div class="card drop-shadow">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam qui deleniti iste incidunt quae quia assumenda.</p>
+                        <div class="card-icons">
+                            <img class="clickable" src="./images/star-plus-outline.svg" />
+                            <img class="clickable" src="./images/eye-plus-outline.svg" />
+                            <img class="clickable" src="./images/source-fork.svg"v/>
+                        </div>
+                    </div>
+                    <div class="card drop-shadow">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam qui deleniti iste incidunt quae quia assumenda.</p>
+                        <div class="card-icons">
+                            <img class="clickable" src="./images/star-plus-outline.svg" />
+                            <img class="clickable" src="./images/eye-plus-outline.svg" />
+                            <img class="clickable" src="./images/source-fork.svg"v/>
+                        </div>
+                    </div>
+                    <div class="card drop-shadow">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam qui deleniti iste incidunt quae quia assumenda.</p>
+                        <div class="card-icons">
+                            <img class="clickable" src="./images/star-plus-outline.svg" />
+                            <img class="clickable" src="./images/eye-plus-outline.svg" />
+                            <img class="clickable" src="./images/source-fork.svg"v/>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             <div class="announcements">
                 <h2>Announcements</h2>
-                <div class="announcement-container">
+                <div class="announcement-container drop-shadow">
                     <h4>Site Maintenance</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus nobis culpa suscipit.</p>
                     <h4>Community Share Day</h4>
@@ -70,8 +127,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus nobis culpa suscipit.</p>
                 </div>
                 <h2>Trending</h2>
-                <div class="announcement-container">
-                    <div class="circle avatar avatar-small"></div>
+                <div class="announcement-container drop-shadow">
+                    <div class="circle avatar avatar-small clickable"></div>
                 </div>
             </div>
         </div>
